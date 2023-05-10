@@ -56,3 +56,6 @@ if start_date is not None and end_date is not None:
     print("Time difference in days: {:.2f}".format(date_difference_days(start_date, end_date)))
 else:
     print("Invalid date format")
+
+
+#In this version of the script, we've added several functions to improve its functionality and made sure that it adheres to ISO standards. The parse_iso_date and format_iso_date functions allow us to easily convert between ISO datetime strings and datetime objects. The date_difference_seconds, date_difference_minutes, date_difference_hours, and date_difference_days functions allow us to easily calculate the time difference between two dates in various units of time. These functions make the script more robust and easier to use.
